@@ -40,7 +40,7 @@ body{
     overflow: hidden;
     display: flex;
     margin-top: 60px;
-   height: 600px;
+     height: 472px;
     background-image: url(images/abt-me-bck-img.png);
 }
 .about-me img{    
@@ -58,25 +58,20 @@ body{
     text-align: left;
 }
  .my-recipe{
-     margin: 50px 0 100px 0;
-     
+     margin: 50px 0 100px 0;     
  }
- .recipe-box{
-   
- }
+ 
  .my-recipe h1{
     font-size: 50px;
-    color: gray;
-    
+    color: gray;    
  }
  .my-recipe-text{
      text-align: center;  
      margin-bottom: 50px;   
  }
- .my-recipe-item{
-   
+ .my-recipe-item{   
     border: 1px solid #ddd;
-     margin: 0 0 0 5%;
+     margin: 0 0 0 4%;
      float: left;
      overflow: hidden;
      text-align: left;
