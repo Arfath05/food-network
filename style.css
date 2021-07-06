@@ -37,9 +37,10 @@ body{
     border-radius: 50px;
 }
 .about-me{
+    overflow: hidden;
     display: flex;
     margin-top: 60px;
-   height: 400px;
+   height: 600px;
     background-image: url(images/abt-me-bck-img.png);
 }
 .about-me img{    
@@ -55,4 +56,39 @@ body{
     margin-bottom: 60px;
     color: gray;    
     text-align: left;
+}
+ .my-recipe{
+     margin: 50px 0 100px 0;
+     
+ }
+ .recipe-box{
    
+ }
+ .my-recipe h1{
+    font-size: 50px;
+    color: gray;
+    
+ }
+ .my-recipe-text{
+     text-align: center;  
+     margin-bottom: 50px;   
+ }
+ .my-recipe-item{
+   
+    border: 1px solid #ddd;
+     margin: 0 0 0 5%;
+     float: left;
+     overflow: hidden;
+     text-align: left;
+     width:26%;
+     box-shadow: 5px 5px 15px gray;
+     border-radius: 8px;
+     padding: 0 5px 0 20px;
+ }
+ /*.my-recipe-item p {
+     padding: 0 5px 0 20px;
+ }*/
+ .my-recipe-item img{
+    margin: 20px 0 0 5px;
+     width:90%
+ }
