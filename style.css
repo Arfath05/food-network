@@ -109,6 +109,9 @@ body{
      font-size: 30px;
      font-weight: bolder;
  }
+ .youtube p{
+     line-height: 0px;
+ }
 
  footer{
     height: 150px;     
